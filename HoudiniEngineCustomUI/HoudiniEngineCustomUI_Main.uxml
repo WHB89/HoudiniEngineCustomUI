@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:engine="UnityEngine.UIElements"
+    xmlns:editor="UnityEditor.UIElements"
+    xsi:noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd">
+
+  <engine:ScrollView name="ScrollView">
+    
+    <engine:VisualElement name="MainLayout">
+
+      
+      <engine:VisualElement name="MainSettings">
+        <engine:Label text="Main settings" name="MainHeadline"/>
+        <editor:ObjectField label="Asset input" name="AssetInput" class="AssetInput"/>
+        <engine:TextField label="Material prefix" name="Material_Prefix" class="MainSettingsPrefixInput" text="unityMat_" />
+        <engine:TextField label="String as object prefix" name="StringAsObj_Prefix" class="MainSettingsPrefixInput" text="unityInstance_" />
+        <engine:TextField label="HDA prefix" name="HDA_Prefix" class="MainSettingsPrefixInput" text="hdaInput_" />
+        <engine:TextField label="Houdini only prefix" name="HoudiniOnly_Prefix" class="MainSettingsPrefixInput" text="houdiniOnly_" />
+        <engine:TextField label="Ramp prefix" name="Ramp_Prefix" class="MainSettingsPrefixInput" text="ramp_" />
+        <engine:VisualElement name="MainSettings_buttons">
+          <engine:Button name="ReloadBtn" class="buttons" text="Reload asset"/>
+          <engine:Button name="RebuildBtn" class="buttons" text="Rebuild asset"/>
+          <engine:Button name="SavePresetBtn" class="buttons" text="Save preset"/>
+          <engine:Button name="LoadPresetBtn" class="buttons" text="Load preset"/>
+          <engine:Button name="EditModeBtn" class="buttons" text="Edit mode"/>
+        </engine:VisualElement>
+      </engine:VisualElement>
+
+      <engine:VisualElement name="AssetSettings">
+        <engine:Label text="Asset settings" name="MainHeadline"/>
+      </engine:VisualElement>
+    </engine:VisualElement>
+  
+  </engine:ScrollView>
+</engine:UXML>
+
+
+

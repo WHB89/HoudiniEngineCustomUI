@@ -1,0 +1,594 @@
+.thumbnails {
+    flex-grow: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#MainLayout {
+	position: relative;
+	width: 100%;
+	display: flex;
+	align-self: auto;
+	flex-direction: row;
+	flex-shrink: 0;
+	flex-grow: 1;
+	flex-direction: row;
+	flex-wrap: wrap;
+	background-color: rgb(20, 20, 20);
+}
+
+#AssetInput {
+	height: 30px;
+	-unity-font-style: bold;
+	color: rgb(206, 206, 206);
+}
+
+	#AssetInput .unity-object-field-display__label {
+		-unity-font-style: bold;
+		color: rgb(206, 206, 206);
+	}
+
+
+
+#MainSettings {
+	position: relative;
+	display: flex;
+	width: 100%;
+	min-width: 500px;
+	height: auto;
+	padding: 5px;
+	flex-direction: column;
+	background-color: rgb(45, 45, 45);
+	margin-bottom: 10px;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+	#MainSettings .unity-object-field-display__label {
+		-unity-font-style: bold;
+		color: rgb(206, 206, 206);
+	}
+
+#MainSettings_buttons {
+	position: relative;
+	display: flex;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	flex-direction: row;
+	width: 100%;
+	justify-content: space-between;
+
+}
+
+#AssetSettings {
+	position: relative;
+	display: flex;
+	align-self: auto;
+	flex-direction: column;
+	flex-shrink: 0;
+	width: 800px;
+	min-width: 500px;
+	height: auto;
+	border-radius: 5px;
+	background-color: rgb(45, 45, 45);
+	padding: 5px;
+}
+
+#MainHeadline {
+	font-size: 22px;
+	color: rgb(206, 206, 206);
+	margin-bottom: 12px;
+	-unity-font-style: bold;
+}
+
+#MainHeadline .unity-label {
+	font-size: 42px;
+}
+
+.unity-label {
+	color: rgb(206, 206, 206);
+}
+
+.FolderHeadline {
+	font-size: 22px;
+	color: rgb(206, 206, 206);
+	margin-bottom: 12px;
+}
+
+	.FolderHeadline.unity-text-element {
+		font-size: 22px;
+		color: rgb(206, 206, 206);
+	}
+
+	.FolderHeadline.unity-label {
+		font-size: 22px;
+		color: rgb(206, 206, 206);
+	}
+
+.FirstFolders {
+	position: relative;
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+	width: 100%;
+	min-height: 50px;
+	height: auto;
+	padding: 5px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	/*border-color: rgb(83, 83, 83);
+	border-width: 1px;*/
+	background-color: rgb(111, 111, 111);
+}
+
+.SecondFolders {
+	position: relative;
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+	padding: 5px;
+	min-height: 50px;
+	height: auto;
+	width: 100%;
+	border-radius: 5px;
+	/*border-color: rgb(227, 227, 227);
+	border-width: 1px;*/
+	margin-bottom: 10px;
+	background-color: rgb(86, 86, 86);
+}
+
+.Multiparms {
+	position: relative;
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+	width: 100%;
+	height: auto;
+	padding: 5px;
+	border-radius: 5px;
+	/*border-color: rgb(227, 227, 227);
+	border-width: 1px;*/
+	background-color: rgb(80, 80, 80);
+}
+
+	.Multiparms .unity-button {
+		position: relative;
+		display: flex;
+		align-self: center;
+		margin: 10px;
+		flex-direction: row;
+		width: 200px;
+		height: 30px;
+		justify-content: space-between;
+		background-color: rgb(219, 167, 5);
+		-unity-font-style: bold;
+	}
+
+.Multiparms.FolderHeadline {
+	font-size: 22px;
+	color: rgb(255, 255, 255);
+	margin-bottom: 12px;
+}
+
+.Multiparms.unity-text-element {
+	font-size: 22px;
+	color: rgb(235, 235, 235);
+}
+
+	.Multiparms.unity-label {
+		font-size: 22px;
+		color: rgb(206, 206, 206);
+	}
+
+.CurveField {
+	position: relative;
+	display: flex;
+	align-self: auto;
+	flex-direction: column;
+	width: 100%;
+	height: 400px;
+	color: rgb(255, 255, 255);
+	border-radius: 5px;
+	/*border-color: rgb(255, 255, 255);
+	border-width: 1px;*/
+	margin-bottom: 10px;
+}
+
+.FirstMultiparmInstance {
+	position: relative;
+	display: flex;
+	align-self: auto;
+	flex-direction: column;
+	width: 100%;
+	height: auto;
+	color: rgb(255, 255, 255);
+	border-radius: 5px;
+	/*border-color: rgb(255, 255, 255);
+	border-width: 1px;*/
+	margin-bottom: 10px;
+	background-color: rgb(76, 100, 141);
+}
+
+	.FirstMultiparmInstance .unity-button {
+		position: relative;
+		display: flex;
+		align-self: flex-end;
+		flex-direction: row;
+		width: 100px;
+		height: 30px;
+		margin: 10px;
+		justify-content: space-between;
+		background-color: rgb(212, 51, 51);
+		color: rgb(68, 68, 68);
+	}
+
+.SecondMultiparmInstance {
+	position: relative;
+	display: flex;
+	align-self: auto;
+	flex-direction: column;
+	width: 100%;
+	height: auto;
+	color: rgb(255, 255, 255);
+	border-radius: 5px;
+	/*border-color: rgb(255, 255, 255);
+	border-width: 1px;*/
+	margin-bottom: 10px;
+	background-color: rgb(76, 129, 141);
+}
+
+	.SecondMultiparmInstance .unity-button {
+		position: relative;
+		display: flex;
+		align-self: flex-end;
+		flex-direction: row;
+		width: 100px;
+		height: 30px;
+		margin: 10px;
+		justify-content: space-between;
+		background-color: rgb(212, 51, 51);
+		color: rgb(68, 68, 68);
+	}
+
+.mainMultiparmInstancesContainer {
+	width: 100%;
+	background-color: transparent;
+}
+
+.intContainer {
+	position: relative;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	height: auto;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding: 5px;
+	background-color: rgb(68, 68, 68);
+}
+
+.labelContainer {
+	position: relative;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	height: auto;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding: 5px;
+	background-color: rgb(68, 68, 68);
+}
+
+.labelText {
+	white-space: normal;
+	padding-right: 5px;
+	width: 100%;
+	font-size: 12px;
+	color: rgb(206, 206, 206);
+}
+
+.floatContainer {
+	position: relative;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	height: auto;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding: 5px;
+	background-color: rgb(68, 68, 68);
+}
+
+.floatSubContainer {
+	position: relative;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	width: 100%;
+	height: auto;
+	border-radius: 5px;
+	margin-top: 5px;
+	background-color: rgb(68, 68, 68);
+}
+
+.colorContainer {
+	position: relative;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	height: auto;
+	margin-bottom: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding: 5px;
+	border-radius: 5px;
+	background-color: rgb(68, 68, 68);
+}
+
+.menuContainer {
+	position: relative;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	height: auto;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding: 5px;
+	background-color: rgb(68, 68, 68);
+}
+
+.unity-foldout {
+	flex: 0 0 auto;
+
+}
+.unity-object-field-display__label {
+	color: rgb(206, 206, 206);
+}
+
+.unity-label {
+	color: rgb(206, 206, 206);
+}
+.unity-text-element {
+	color: rgb(206, 206, 206);
+}
+
+.unity-foldout__toggle > .unity-toggle__input > Label {
+	-unity-font-style: bold;
+	font-size: 18px;
+	margin-bottom: 12px;
+	margin-left: 5px;
+	color: rgb(206, 206, 206);
+}
+
+.unity-foldout__toggle > .unity-toggle__input > #unity-checkmark {
+	margin-top: 7px;
+	margin-left: 22px;
+	
+}
+
+
+.MenuField
+{
+	width: 200px;
+	height: 30px;
+}
+
+.colorField
+{
+	width: 200px;
+	height: 100px;
+}
+
+.MainSettingsPrefixInput {
+	margin-bottom: 10px;
+	height: 20px;
+}
+
+.stringContainer {
+	position: relative;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	height: auto;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding: 5px;
+	background-color: rgb(68, 68, 68);
+}
+
+.stringField
+{
+	width: 400px;
+	height: 20px;
+	color: rgb(255, 0, 255);
+}
+
+
+
+.stringAsObjectField {
+	width: 400px;
+	height: 30px;
+	color: rgb(255, 0, 255);
+}
+
+.stringAsObjectField .unity-label {
+	color: rgb(0,0,0);
+}
+
+
+.allInputContainer {
+	position: relative;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	height: auto;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding: 5px;
+	background-color: rgb(68, 68, 68);
+}
+
+
+
+.inputField
+{
+	width: 400px;
+	height: 30px;
+	color: rgb(255, 0, 255);
+}
+
+
+.inputField .unity-label {
+	color: rgb(227, 227, 227);
+}
+
+.textureField {
+	width: 400px;
+	height: 30px;
+	color: rgb(255, 0, 255);
+}
+	.textureField .unity-label {
+		color: rgb(0,0,0);
+	}
+
+.toggleContainer {
+	position: relative;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	height: auto;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding: 5px;
+	/*width: 98%;*/
+	background-color: rgb(68, 68, 68);
+}
+
+.toggleNumberField {
+	left: 10px;
+	background-color: rgb(0, 154, 255);
+}
+
+.buttonField {
+	background-color: rgb(255, 0, 255);
+	
+}
+
+
+.bContainer .unity-button {
+	position: relative;
+	display: flex;
+	align-self: center;
+	margin: 10px;
+	flex-direction: row;
+	width: 100%;
+	height: 30px;
+	justify-content: space-between;
+	background-color: rgb(219, 167, 5);
+	color: rgb(68, 68, 68);
+	-unity-font-style: bold;
+}
+
+
+.buttonContainer {
+	position: relative;
+	display: flex;
+	align-items: flex-start;
+	flex-direction: row;
+	width: 800px;
+	height: 300px;
+	margin-bottom: 10px;
+	padding-top: 10px;
+	color: rgb(255, 0, 255);
+	background-color: rgb(166, 154, 255);
+}
+
+.separatorContainer {
+	position: relative;
+	display: flex;
+	width: 100%;
+	height: 20px;
+	align-items: flex-start;
+	flex-direction: row;
+}
+
+.settingElem
+{
+	flex: 1;
+	background-color: rgb(255, 1, 1);
+	color: rgb(255, 255, 255);
+}
+
+#ButtonHolder {
+	display: flex;
+	flex-direction: row;
+	width: auto;
+	height: 50px;
+	background-color: rgb(21, 132, 67);
+}
+
+
+.unity-button {
+	position: relative;
+	display: flex;
+	align-self: center;
+	flex-direction: row;
+	width: 100px;
+	height: 30px;
+	margin: 10px;
+	justify-content: space-between;
+	background-color: rgb(219, 167, 5);
+	color: rgb(68, 68, 68);
+	-unity-font-style: bold;
+}
+
+.slider {
+	width: 350px;
+}
+
+.numberField
+{
+	width: 50px;
+}
+
+.attributeName {
+	white-space: normal;
+	padding-right: 5px;
+	width: 290px;
+	font-size: 12px;
+	-unity-font-style: bold;
+	color: rgb(201, 201, 201);
+}
+
+	.attributeName .unity-label {
+		font-size: 12px;
+		color: rgb(206, 206, 206);
+		margin-bottom: 12px;
+	}
+
+.attributeName .unity-text-element {
+	font-size: 12px;
+	color: rgb(255, 255, 255);
+	margin-bottom: 12px;
+}
+
+
+
+
+
+
+

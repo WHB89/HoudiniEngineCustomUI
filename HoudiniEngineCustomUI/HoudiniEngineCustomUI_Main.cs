@@ -62,7 +62,7 @@ namespace HoudiniEngineCustomUI
 
 
             //Reload settings
-            Button reloadBtn = rootVisualElement.Q<Button>("ReloadBtn");
+            Button reloadBtn = rootVisualElement.Q<Button>("RecookBtn");
             CustomUI_StandardEvents.SetupReloadButtonEvent(reloadBtn, assetInputField, AssetSettingsParent, AssetUI);
 
             //LoadPreset

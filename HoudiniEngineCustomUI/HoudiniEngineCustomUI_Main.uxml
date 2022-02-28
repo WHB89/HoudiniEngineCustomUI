@@ -19,7 +19,7 @@
         <engine:TextField label="Houdini only prefix" name="HoudiniOnly_Prefix" class="MainSettingsPrefixInput" text="houdiniOnly_" />
         <engine:TextField label="Ramp prefix" name="Ramp_Prefix" class="MainSettingsPrefixInput" text="ramp_" />
         <engine:VisualElement name="MainSettings_buttons">
-          <engine:Button name="ReloadBtn" class="buttons" text="Reload asset"/>
+          <engine:Button name="RecookBtn" class="buttons" text="Recook asset"/>
           <engine:Button name="RebuildBtn" class="buttons" text="Rebuild asset"/>
           <engine:Button name="SavePresetBtn" class="buttons" text="Save preset"/>
           <engine:Button name="LoadPresetBtn" class="buttons" text="Load preset"/>

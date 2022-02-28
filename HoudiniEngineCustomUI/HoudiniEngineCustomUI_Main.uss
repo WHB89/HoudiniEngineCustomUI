@@ -23,10 +23,10 @@
 	color: rgb(206, 206, 206);
 }
 
-	#AssetInput .unity-object-field-display__label {
+	/*#AssetInput .unity-object-field-display__label {
 		-unity-font-style: bold;
-		color: rgb(206, 206, 206);
-	}
+		color: rgb(255, 0, 255);
+	}*/
 
 
 
@@ -50,7 +50,7 @@
 	}
 	#MainSettings .unity-object-field-display__label {
 		-unity-font-style: bold;
-		color: rgb(20, 20, 20);
+		color: rgb(204, 160, 0);
 	}
 
 #MainSettings_buttons {
@@ -89,9 +89,6 @@
 	font-size: 42px;
 }
 
-.unity-label {
-	color: rgb(206, 206, 206);
-}
 
 .FolderHeadline {
 	font-size: 22px;
@@ -120,8 +117,6 @@
 	padding: 5px;
 	margin-bottom: 10px;
 	border-radius: 5px;
-	/*border-color: rgb(83, 83, 83);
-	border-width: 1px;*/
 	background-color: rgb(111, 111, 111);
 }
 
@@ -135,8 +130,6 @@
 	height: auto;
 	width: 100%;
 	border-radius: 5px;
-	/*border-color: rgb(227, 227, 227);
-	border-width: 1px;*/
 	margin-bottom: 10px;
 	background-color: rgb(86, 86, 86);
 }
@@ -150,8 +143,6 @@
 	height: auto;
 	padding: 5px;
 	border-radius: 5px;
-	/*border-color: rgb(227, 227, 227);
-	border-width: 1px;*/
 	background-color: rgb(80, 80, 80);
 }
 
@@ -193,8 +184,6 @@
 	height: 400px;
 	color: rgb(255, 255, 255);
 	border-radius: 5px;
-	/*border-color: rgb(255, 255, 255);
-	border-width: 1px;*/
 	margin-bottom: 10px;
 }
 
@@ -207,8 +196,6 @@
 	height: auto;
 	color: rgb(255, 255, 255);
 	border-radius: 5px;
-	/*border-color: rgb(255, 255, 255);
-	border-width: 1px;*/
 	margin-bottom: 10px;
 	background-color: rgb(76, 100, 141);
 }
@@ -235,8 +222,6 @@
 	height: auto;
 	color: rgb(255, 255, 255);
 	border-radius: 5px;
-	/*border-color: rgb(255, 255, 255);
-	border-width: 1px;*/
 	margin-bottom: 10px;
 	background-color: rgb(76, 129, 141);
 }
@@ -353,15 +338,16 @@
 	flex: 0 0 auto;
 
 }
-.unity-object-field-display__label {
+/*.unity-object-field-display__label {
 	color: rgb(206, 206, 206);
 }
 
 .unity-label {
 	color: rgb(206, 206, 206);
-}
+}*/
+
 .unity-text-element {
-	color: rgb(20, 20, 20);
+	color: rgb(204, 160, 0);
 }
 
 .unity-foldout__toggle > .unity-toggle__input > Label {
@@ -450,13 +436,14 @@
 {
 	width: 400px;
 	height: 30px;
-	color: rgb(255, 0, 255);
+	background-color: black;
 }
 
+	.inputField .unity-label {
+		color: rgb(204, 160, 0);
+	}
 
-.inputField .unity-label {
-	color: rgb(20, 20, 20);
-}
+
 
 .textureField {
 	width: 400px;
@@ -559,7 +546,9 @@
 	color: rgb(68, 68, 68);
 	-unity-font-style: bold;
 }
-
+	#MainSettings_buttons .unity-text-element {
+		color: rgb(68, 68, 68);
+	}
 .slider {
 	width: 350px;
 }
@@ -584,13 +573,24 @@
 		margin-bottom: 12px;
 	}
 
-.attributeName .unity-text-element {
+/*.attributeName .unity-text-element {
 	font-size: 12px;
 	color: rgb(255, 255, 255);
 	margin-bottom: 12px;
+}*/
+
+
+/*.unity-label {
+	color: rgb(21, 132, 67);
+}*/
+
+.unity-text {
+	color: rgb(255, 0, 255);
 }
 
-
+.unity-object-field-display__label {
+	color: rgb(255, 1, 1);
+}
 
 
 

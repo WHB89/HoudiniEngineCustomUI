@@ -42,8 +42,8 @@ namespace HoudiniEngineCustomUI
         {
             newContainer = new Foldout();
             newContainer.text = parmData._labelName.ToString();
+
             newContainer.value = folderState;
-            //Debug.Log(parmData._labelName.ToString());
             // Choose folder class
             if (parentContainer.ClassListContains(firstFolderClassName))
             {
